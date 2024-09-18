@@ -13,12 +13,14 @@ To use this project, follow these steps:
 1. Upload the dataset 'McDonald_s_Reviews.csv'.
 2. Run 'sentimentAnalysis.ipynb' it will create a 'pred_negative_reviews.csv' that we use for topic modelling.
 3. Upload 'pred_negative_reviews.csv' i.e. the csv file containing the negative reviews predicted by the LSTM model. 
-4. Run 'LDA.ipynb' 
+4. Run 'LDA.ipynb'
+
 **Note:** If you run "sentimentAnalysis.ipynb" the file "pred_negative_reviews.csv" will be overwrited, so it may cause slightly different results.
 
 ## Dataset
 - Over 33,000 anonymized Google reviews of McDonald's stores in the United States 
 - Focused on review content and ratings
+- You can find it here: [Mc_Donald_s_Reviews.csv](https://www.kaggle.com/datasets/nelgiriyewithana/mcdonalds-store-reviews/data)
 
 ## Methodology
 
