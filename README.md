@@ -20,7 +20,7 @@ To use this project, follow these steps:
 ## Dataset
 - Over 33,000 anonymized Google reviews of McDonald's stores in the United States 
 - Focused on review content and ratings
-- You can find it here: [Mc_Donald_s_Reviews.csv](https://www.kaggle.com/datasets/nelgiriyewithana/mcdonalds-store-reviews/data)
+- You can find it on Kaggle: [McDonald's Store Reviews](https://www.kaggle.com/datasets/nelgiriyewithana/mcdonalds-store-reviews/data)
 
 ## Methodology
 
