@@ -8,6 +8,14 @@ This project conducts an in-depth analysis of customer reviews for McDonald's fa
 1. **Sentiment Analysis**: Using Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) models
 2. **Topic Modeling**: Using Latent Dirichlet Allocation (LDA)
 
+## Usage
+To use this project, follow these steps:
+1. Upload the dataset 'McDonald_s_Reviews.csv'.
+2. Run 'sentimentAnalysis.ipynb' it will create a 'pred_negative_reviews.csv' that we use for topic modelling.
+3. Upload 'pred_negative_reviews.csv' i.e. the csv file containing the negative reviews predicted by the LSTM model. 
+4. Run 'LDA.ipynb' 
+**Note:** If you run "sentimentAnalysis.ipynb" the file "pred_negative_reviews.csv" will be overwrited, so it may cause slightly different results.
+
 ## Dataset
 - Over 33,000 anonymized Google reviews of McDonald's stores in the United States 
 - Focused on review content and ratings
@@ -63,12 +71,3 @@ These findings can guide McDonald's in improving their service quality and enhan
 ## References
 1. Bengio, Y., Goodfellow, I., & Courville, A. (2017). Deep learning (Vol. 1). MIT press Cambridge, MA, USA.
 2. Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent dirichlet allocation. Journal of machine Learning research, 3(Jan), 993-1022.
-
-
-#Usage
-To use this project, follow these steps:
-1. Upload the dataset 'McDonald_s_Reviews.csv'.
-2. Run 'sentimentAnalysis.ipynb' it will create a 'pred_negative_reviews.csv' that we use for topic modelling.
-3. Upload 'pred_negative_reviews.csv' i.e. the csv file containing the negative reviews predicted by the LSTM model. 
-4. Run 'LDA.ipynb' 
-**Note:** If you run "sentimentAnalysis.ipynb" the file "pred_negative_reviews.csv" will be overwrited, so it may cause slightly different results.
